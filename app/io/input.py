@@ -22,7 +22,6 @@ def read_from_file(filepath):
         return "File not found."
 
 
-
 def read_from_file_pandas(filepath):
     """
     Reads the content of a text file using pandas.
@@ -31,9 +30,14 @@ def read_from_file_pandas(filepath):
     :return: File content as a string.
     """
     try:
-        df = pd.read_csv(filepath, header=None, sep='\s+', on_bad_lines='skip')
-        return df.to_string(index=False, header=False)
+        with open(filepath, 'r', encoding='utf-8') as file:
+            content = file.readlines()
+
+        return '\n'.join(line.strip() for line in content)
+
     except FileNotFoundError:
         return "File not found."
+    except pd.errors.ParserError as e:
+        return f"Error reading file: {e}"
     except Exception as e:
         return f"Error reading file: {e}"

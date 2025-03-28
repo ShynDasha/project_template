@@ -2,7 +2,6 @@ from app.io import output
 from app.io import input
 
 
-
 def main():
     """
     Main function that reads input from different sources, prints the results to the console,
