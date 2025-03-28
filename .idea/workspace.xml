@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d657941c-a8ea-4cc1-b539-59941fc5b838" name="Changes" comment="add python package app, io, tests">
+    <list default="true" id="d657941c-a8ea-4cc1-b539-59941fc5b838" name="Changes" comment="create requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       <updated>1743117764583</updated>
       <workItem from="1743117765606" duration="140000" />
       <workItem from="1743117913318" duration="896000" />
-      <workItem from="1743118822395" duration="1930000" />
+      <workItem from="1743118822395" duration="3777000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -116,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743119558472</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create requirements.txt">
+      <option name="closed" value="true" />
+      <created>1743121136957</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743121136957</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +134,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add main.py" />
     <MESSAGE value="add python package app, io, tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add python package app, io, tests" />
+    <MESSAGE value="create requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="create requirements.txt" />
   </component>
 </project>
