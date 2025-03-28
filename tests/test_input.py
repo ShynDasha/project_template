@@ -36,6 +36,33 @@ class TestInputFunctions(unittest.TestCase):
 
         os.remove('data/empty_file.txt')
 
+    def test_read_from_file_pandas_existing(self):
+        # Викликаємо функцію для зчитування з файлу
+        result = input.read_from_file_pandas('data/test_file_pandas.txt')
+
+        # Перевіряємо, чи містить результат очікувані дані
+        self.assertIn('Hello this is a test file.', result)
+        self.assertIn('It contains multiple lines of text.', result)
+
+    def test_read_from_file_pandas_nonexistent(self):
+        # Перевіряємо, що буде, якщо файл не існує
+        result = input.read_from_file_pandas('data/nonexistent_file.txt')
+
+        # Перевіряємо, чи повертається правильне повідомлення про помилку
+        self.assertEqual(result, "File not found.")
+
+    def test_read_from_file_pandas_valid_format(self):
+        # Створюємо правильний файл для pandas
+        with open('data/test_file_pandas_valid.txt', 'w', encoding='utf-8') as file:
+            file.write("Hello, this is a test file.\nIt contains multiple lines of text.\n")
+
+        # Перевіряємо результат
+        result = input.read_from_file_pandas('data/test_file_pandas_valid.txt')
+
+        # Перевіряємо, чи результат є правильним (повинно бути зчитано зміст файлу)
+        expected = "Hello, this is a test file.\nIt contains multiple lines of text."
+        self.assertEqual(result, expected)
+
 
 if __name__ == '__main__':
     unittest.main()
