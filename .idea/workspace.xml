@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d657941c-a8ea-4cc1-b539-59941fc5b838" name="Changes" comment="function implemented and main created">
-      <change afterPath="$PROJECT_DIR$/tests/test_input.py" afterDir="false" />
+    <list default="true" id="d657941c-a8ea-4cc1-b539-59941fc5b838" name="Changes" comment="created 3 tests read_from_file_pandas (passed)">
+      <change afterPath="$PROJECT_DIR$/missile_attacks_daily.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_practice_9_2025.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/io/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/io/input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +45,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_input.TestInputFunctions.executor": "Run",
-    "Python tests.Python tests for test_input.TestInputFunctions.test_read_from_file_pandas_existing.executor": "Run",
-    "Python tests.Python tests for test_input.TestInputFunctions.test_read_from_file_pandas_invalid_format.executor": "Run",
-    "Python tests.Python tests for test_input.TestInputFunctions.test_read_from_file_pandas_non_existent.executor": "Run",
-    "Python tests.Python tests for test_input.TestInputFunctions.test_read_from_file_pandas_nonexistent.executor": "Run",
-    "Python tests.Python tests in test_input.py.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_input.TestInputFunctions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.TestInputFunctions.test_read_from_file_pandas_existing.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.TestInputFunctions.test_read_from_file_pandas_invalid_format.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.TestInputFunctions.test_read_from_file_pandas_non_existent.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_input.TestInputFunctions.test_read_from_file_pandas_nonexistent.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_input.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -180,7 +180,11 @@
       <updated>1743117764583</updated>
       <workItem from="1743117765606" duration="140000" />
       <workItem from="1743117913318" duration="896000" />
-      <workItem from="1743118822395" duration="6759000" />
+      <workItem from="1743118822395" duration="8845000" />
+      <workItem from="1744103140136" duration="34000" />
+      <workItem from="1744367468674" duration="11000" />
+      <workItem from="1744582566150" duration="3852000" />
+      <workItem from="1744642277103" duration="5433000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -246,7 +250,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743163541913</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="created 3 tests read_from_file (passed)">
+      <option name="closed" value="true" />
+      <created>1743165025951</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743165025951</updated>
+    </task>
+    <task id="LOCAL-00010" summary="created 3 tests read_from_file_pandas (passed)">
+      <option name="closed" value="true" />
+      <created>1743165192052</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743165192052</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,10 +279,23 @@
     <MESSAGE value="create requirements.txt" />
     <MESSAGE value="input.py and output.py added function" />
     <MESSAGE value="function implemented and main created" />
-    <option name="LAST_COMMIT_MESSAGE" value="function implemented and main created" />
+    <MESSAGE value="created 3 tests read_from_file (passed)" />
+    <MESSAGE value="created 3 tests read_from_file_pandas (passed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="created 3 tests read_from_file_pandas (passed)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/python_practice_9_2025.ipynb</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/project_template$.coverage" NAME=" Coverage Results" MODIFIED="1743164778157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/project_template$.coverage" NAME=" Coverage Results" MODIFIED="1743165041736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/project_template$main.coverage" NAME="main Coverage Results" MODIFIED="1743163154809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
