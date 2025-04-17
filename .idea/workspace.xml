@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d657941c-a8ea-4cc1-b539-59941fc5b838" name="Changes" comment="created 3 tests read_from_file_pandas (passed)">
-      <change afterPath="$PROJECT_DIR$/missile_attacks_daily.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_practice_9_2025.ipynb" afterDir="false" />
+    <list default="true" id="d657941c-a8ea-4cc1-b539-59941fc5b838" name="Changes" comment="practice_9">
+      <change afterPath="$PROJECT_DIR$/python_practice_10_2025.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_practice_9_2025.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_practice_9_2025.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +185,11 @@
       <workItem from="1744103140136" duration="34000" />
       <workItem from="1744367468674" duration="11000" />
       <workItem from="1744582566150" duration="3852000" />
-      <workItem from="1744642277103" duration="5433000" />
+      <workItem from="1744642277103" duration="5820000" />
+      <workItem from="1744788041955" duration="56000" />
+      <workItem from="1744788112457" duration="1690000" />
+      <workItem from="1744802472411" duration="2000" />
+      <workItem from="1744818987472" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -266,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743165192052</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="practice_9">
+      <option name="closed" value="true" />
+      <created>1744660349098</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744660349098</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +294,8 @@
     <MESSAGE value="function implemented and main created" />
     <MESSAGE value="created 3 tests read_from_file (passed)" />
     <MESSAGE value="created 3 tests read_from_file_pandas (passed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="created 3 tests read_from_file_pandas (passed)" />
+    <MESSAGE value="practice_9" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice_9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
